@@ -101,12 +101,12 @@ console.log(i);
 for (var i = 0; i < 5; i++){	
 }
 ```
-<details>
+1. <details>
 	<summary>var i = 0</summary>
 	declares a variable i and sets it to some number
 </details>
 
-<details>
+2. <details>
 	<summary>i < 5</summary>
 	continues running as long as this condition
 </details>
