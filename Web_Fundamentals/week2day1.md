@@ -138,7 +138,8 @@ var val = array[i++];
 console.log(val)
 ```
 <detaills>
-	<summary>1, i evaluates after the value can be changed</summary>
+	<summary>What is val in this evaluation?</summary>
+	1, i evaluates and then changes
 </details>
 
 ```
@@ -148,8 +149,10 @@ var val = array[++i]; // val is 3, ie. the second element of the array
 console.log(val)
 ```
 <detaills>
-	<summary>2, i evaluates before the value can be changed</summary>
+	<summary>What is val in the evaluation?</summary>
+	3, i changes before the val is evaluated
 </details>
+
 
 		
 ### How do functions work?
