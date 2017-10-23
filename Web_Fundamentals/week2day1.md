@@ -128,6 +128,29 @@ for (var i = 0; i < 5; i++){
 		<tr><td>6</td><td>5</td><td>false</td></tr>
 	</table>
 </details>
+
+### What's the difference between ++i and i++?
+
+```
+var i = 0;
+var array = [1, 3, 5];
+var val = array[i++];
+console.log(val)
+```
+<detaills>
+	<summary>1, i evaluates after the value can be changed</summary>
+</details>
+
+```
+var i = 0;
+var array = [1, 3, 5];
+var val = array[++i]; // val is 3, ie. the second element of the array
+console.log(val)
+```
+<detaills>
+	<summary>2, i evaluates before the value can be changed</summary>
+</details>
+
 		
 ### How do functions work?
 
