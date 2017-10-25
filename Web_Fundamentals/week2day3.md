@@ -23,10 +23,12 @@ console.log(acceptsCallback(function(){
 
 
 function acceptsCallback2(callback){
+  console.log(callback)
   return callback("It's dangerous to go alone, take this data!");
 }
 
 console.log(acceptsCallback2(function(data){
+  console.log(data)
   return data;
 }));
 
@@ -52,7 +54,7 @@ console.log(acceptsCallback2(function(data){
 </details><br>
 
 <details>
-  <summary>How else could the DOM differ from out HTML? (Hint: what have we been learning this week)</summary>
+  <summary>How else could the DOM differ from our HTML? (Hint: what have we been learning this week)</summary>
   It can contain HTML generated from JavaScript.
 </details>
 
@@ -62,6 +64,7 @@ console.log(acceptsCallback2(function(data){
   <summary>What is Static content? How does it differ from Dynamic content?</summary>
     Static content doesn't change.
     Dynamic content is generated dynamically, or changed.
+    Is dynamic content avaliable to the script when the $(document).ready(function(){}) is run?
 </details><br>
 
 ### What is ```$(this)``` ?
