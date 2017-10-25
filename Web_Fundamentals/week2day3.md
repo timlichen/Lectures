@@ -62,9 +62,8 @@ console.log(acceptsCallback2(function(data){
 
 <details>
   <summary>What is Static content? How does it differ from Dynamic content?</summary>
-    Static content doesn't change.
-    Dynamic content is generated dynamically, or changed.
-    Is dynamic content avaliable to the script when the $(document).ready(function(){}) is run?
+    - Static content doesn't change.
+    - Dynamic content is generated dynamically, or changed.
 </details><br>
 
 ### What is ```$(this)``` ?
